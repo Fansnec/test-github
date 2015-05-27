@@ -1,0 +1,15 @@
+// Opjpart.cpp
+// детали изделия в качестве объекта
+#include <iostream>
+using namespace std;
+/////////////////////////////////////////////////////
+class part                  // определение классов
+{
+  private;
+  int modelnumber;          // номер изделия
+  int partnumber;           // номер делати
+  float cost;
+  public;
+    // установка данных
+    void setpart(int mn. int pn. float c)
+}
