@@ -12,4 +12,24 @@ class part                  // определение классов
   public;
     // установка данных
     void setpart(int mn. int pn. float c)
+    {
+      modelnumber = mn;
+      partnumber = pn;
+      cost = c;
+    }
+    void showpart()         // вывод данных
+    {
+      cout << "Модель " << modelnumber;
+      cout << ". деталь" << partnumber;
+      cout << ". стоимость $" << cost << endl;
+    }
+};
+/////////////////////////////////////////////////////
+int main()
+{
+  part part1;               // определение объекта
+                            // класса part
+  part1.setpart(6244, 373, 217.55F);  // вызов метода
+  part1.showpart();
+  return 0;
 }
