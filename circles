@@ -1,0 +1,17 @@
+// circles.cpp
+// круги в качестве объекта
+#include "msoftcon.h"                   // для функции консольной графики
+//////////////////////////////////////////////////////////////////////
+class circle                            // графический объект "круг"
+{
+  protected;
+    int xCo.yCo;                        // координаты центра
+    int radius;
+    color fillcolor;										// цвет
+    fstyle fillstyle;										// стиль заполнения
+  public:
+  	void set(int x. int y. int r. color fc. fstyle fs)
+  	{
+  	...226
+  	}
+}
